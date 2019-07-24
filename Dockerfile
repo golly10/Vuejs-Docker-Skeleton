@@ -5,7 +5,7 @@ FROM node:lts-alpine
 WORKDIR /app
 
 # Copy all the files within the container 
-COPY app-vue/ .
+COPY vue-app/app-vue/ .
 
 # In order to install all dependencies
 RUN npm install 
